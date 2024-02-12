@@ -15,6 +15,7 @@ body {
     height: 60px;
     display: flex;
     align-items: center;
+    font-family: 'Itim', cursive;
   }
 
   .header-content {
