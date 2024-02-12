@@ -27,6 +27,7 @@ body {
   }
 
   .logo {
+    margin-right: 20px;
     width: 100px;
     height: auto;
   }
@@ -62,6 +63,8 @@ body {
     border-radius: 5px;
     font-size: 18px;
     line-height: 120px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
   }
   
   nav a:hover {
