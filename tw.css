@@ -1,50 +1,45 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #d9b4e3;
-    color: #333;
     margin: 0;
     padding: 0;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-header {
-    background-color: #ffcccb;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #F0EDCF;
+  }
+  
+  header {
+    background-color: #0B60B0;
     padding: 10px;
-    border-radius: 1px solid #ddd;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #ffb6c1;
-    overflow: hidden;
-}
-
-nav li {
-    float: left;
-}
-
-nav a {
-    display: block;
-    color: #333;
-    text-align: center;
-    padding: 14px 16px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  nav {
+    background-color: #40A2D8;
+    padding: 10px;
+    position: sticky;
+    top: 60px;
+    z-index: 100;
+  }
+  
+  nav a {
+    color: #F0EDCF;
     text-decoration: none;
-}
-
-nav a:hover {
-    background-color: #ffe4e1;
-}
-
-section {
-    padding: 20px;
-}
-
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #0B60B0;
+  }
+  
+  footer {
+    background-color: #0B60B0;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
